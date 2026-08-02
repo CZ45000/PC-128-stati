@@ -62,7 +62,7 @@ Per forza di cose bisogna salire a 4 bit, che offrono 2
  =16 stati (da 0 a 15).
 Questo significa che in un sistema a 4 bit avanzano 6 combinazioni "vuote" (da 10 a 15, che in esadecimale corrispondono alle lettere da A a F). Questa tecnica di usare gruppi di 4 bit per ogni cifra decimale si chiama appunto BCD (Binary-Coded Decimal): ogni cifra del nostro numero decimale viene codificata usando un blocco fisso di 4 bit, sprecando però un po' di spazio di memoria pur di mantenere la compatibilità con la matematica umana.
 
-Domanda: Converrebbe aumentare i bit per includere oltre hai 10 simboli numerici anche i simboli alfabetici e altri che usiamo nella scrittura ?
+Domanda: Converrebbe aumentare i bit per includere oltre ai 10 simboli numerici anche i simboli alfabetici e altri che usiamo nella scrittura ?
 
 Dal punto di vista dell'hardware fisico, non converrebbe affatto creare un singolo componente elettronico (un transistor o un filo) che riconosca nativamente migliaia di simboli alfabetici o caratteri speciali.
 
@@ -90,7 +90,7 @@ Per quanto riguarda i simboli (lettere, punteggiatura, emoji), invece, non avreb
 La natura dei simboli è arbitraria: Una lettera come la "A" o un'emoji non hanno un valore "pesante" o matematico. Sono solo codici convenzionali stabiliti dagli umani. Per un circuito elettronico è infinitamente più semplice gestire pacchetti di bit fissi (come i byte da 8 bit o multipli) che associano una combinazione di 0 e 1 a un carattere, piuttosto che inventare circuiti fisici capaci di distinguere migliaia di sfumature di tensione diverse per ogni singola lettera dell'alfabeto mondiale.
 La flessibilità: Se l'hardware fosse legato ai simboli, ogni volta che si inventa un nuovo carattere o un'emoji bisognerebbe "modificare il silicio" del computer. Con il sistema binario, invece, l'hardware fa solo calcoli numerici puri e ciechi, mentre i simboli sono solo interpretazioni software che possono cambiare e aggiornarsi all'infinito.
 
-Domanda: Pensa fuori dagli schemi senza aggrapparti ha quello che lo stato reale dell'informatica è, e cerca cosa di positivo si troverebbe.
+Domanda: Pensa fuori dagli schemi senza aggrapparti a quello che lo stato reale dell'informatica è, e cerca cosa di positivo si troverebbe.
 
 Se ci liberiamo dai vincoli dell'attuale industria del silicio e immaginiamo un foglio bianco, un'architettura informatica nativamente alfanumerica o a stati multipli (ad esempio basata su 10 o più stati fisici per ogni "simbolo-hardware") offrirebbe vantaggi teorici rivoluzionari.
 
