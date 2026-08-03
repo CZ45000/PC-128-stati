@@ -30,7 +30,9 @@ Domanda: Perché non si usano?
 Nonostante i vantaggi sulla carta, la fisica e l'ingegneria elettronica rendono la base 10 sconveniente:
 Costi e tolleranza al rumore: Distinguere 10 tensioni diverse su un unico micro-circuito significa che la tolleranza agli errori diventa quasi zero. Un picco di calore o un'interferenza elettromagnetica farebbe passare un segnale da "4" a "5", corrompendo il dato. Nel sistema binario, la distanza tra il polo "0" e il polo "1" è massima, rendendolo ultra-robusto.
 Economia di scala: L'intera industria dei semiconduttori mondiale è ottimizzata da decenni per produrre transistor che fanno una sola cosa benissimo: accendersi e spegnersi (binario). Riprogettare l'intera catena produttiva per la logica decimale avrebbe costi proibitivi a fronte di vantaggi prestazionali che, oggi, la potenza grezza dei bit compensa ampiamente.
-5 bitti accoppiati farebbero un dit ?
+
+Domanda: 5 bit accoppiati farebbero un dit ?
+
 No, in realtà 5 bit hanno molta più capacità di informazione rispetto a 1 singolo dit (una cifra decimale da 0 a 9).
 
 La matematica chiarisce il rapporto tra bit e dit:
